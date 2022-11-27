@@ -92,3 +92,54 @@ body {
   display: inline-block;
   transition: all .2s;
 }
+
+
+/* mainpage */
+.mainpage{
+  padding-top: 186px;
+  padding-bottom: 104px;
+}
+.mainpage-wrapper{
+  display: flex;
+  padding-left: max(15px, calc((100% - 1223px)/2));
+}
+.mainpage-text{
+  flex-shrink: 0;
+  width: 619px;
+}
+.mainpage-img{
+  max-width: calc(100% - 619px);
+  overflow: hidden;
+}
+.mainpage-title{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #3C567B;
+  margin-bottom: 27px;
+}
+.mainpage-subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  line-height: 27px;
+  font-weight: 500;
+  color: #93C1F9;
+  margin-bottom: 122px;
+}
+.btn{
+  width: 200px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  background: transparent;
+  color: #458FF6;
+  font-weight: 700;
+}
+.mainpage-btn{
+  background-color: #458FF6;
+  color: #fff;
+  height: 69px;
+}
